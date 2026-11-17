@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="pantalla" id="pantalla">0</div>
+        
+        <div class="teclado">
+            <button class="btn clear" id="btn-clear">C</button>
+            <button class="btn" id="btn-backspace">←</button>
+            <button class="btn operador" data-operador="/">÷</button>
+            <button class="btn operador" data-operador="*">×</button>
+
+            <button class="btn numero" data-numero="7">7</button>
+            <button class="btn numero" data-numero="8">8</button>
+            <button class="btn numero" data-numero="9">9</button>
+            <button class="btn operador" data-operador="-">-</button>
+
+            <button class="btn numero" data-numero="4">4</button>
+            <button class="btn numero" data-numero="5">5</button>
+            <button class="btn numero" data-numero="6">6</button>
+            <button class="btn operador" data-operador="+">+</button>
+
+            <button class="btn numero" data-numero="1">1</button>
+            <button class="btn numero" data-numero="2">2</button>
+            <button class="btn numero" data-numero="3">3</button>
+            <button class="btn igual" id="btn-igual">=</button>
+
+            <button class="btn numero cero" data-numero="0">0</button>
+            <button class="btn punto" id="btn-punto">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
